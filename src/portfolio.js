@@ -40,7 +40,7 @@ const projects = [
   {
     name: 'Projective',
     description:
-      'A project management app that breaks down large projects into manageable (and deferable) pieces. Full stack app built just in Rails!',
+      'A project management app that breaks down large projects into manageable pieces. Full stack app built just in Rails!',
     stack: ['Rails', 'Ruby'],
     sourceCode: 'https://github.com/ShujaatAzim/Projective',
     livePreview: 'https://projective.shujaatazim.com',

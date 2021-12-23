@@ -22,7 +22,7 @@ const Navbar = () => {
               Projects
             </a>
           </li>
-        ) : null};
+        ) : null}
 
         {skills.length ? (
           <li className='nav__list-item'>
@@ -30,7 +30,7 @@ const Navbar = () => {
               Skills
             </a>
           </li>
-        ) : null};
+        ) : null}
 
         {contact.email ? (
           <li className='nav__list-item'>
@@ -38,7 +38,7 @@ const Navbar = () => {
               Contact
             </a>
           </li>
-        ) : null};
+        ) : null}
       </ul>
 
       <button type='button' onClick={toggleTheme} className='btn btn--icon nav__theme' aria-label='toggle theme'>

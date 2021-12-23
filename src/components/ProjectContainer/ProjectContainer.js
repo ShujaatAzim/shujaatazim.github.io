@@ -17,25 +17,25 @@ const ProjectContainer = ({ project }) => (
           </li>
         ))}
       </ul>
-    )};
+    )}
 
     {project.sourceCode && (
       <a href={project.sourceCode} aria-label='source code' className='link link--icon'>
         <GitHubIcon /> Code
       </a>
-    )};
+    )}
     
     {project.livePreview && (
       <a href={project.livePreview} aria-label='live preview' className='link link--icon'>
         <VideoLibraryIcon /> Demo
       </a>
-    )};
+    )}
 
     {project.livePreview && (
       <a href={project.livePreview} aria-label='live preview' className='link link--icon'>
         <LaunchIcon /> Try It!
       </a>
-    )};
+    )}
 
   </div>
 );
