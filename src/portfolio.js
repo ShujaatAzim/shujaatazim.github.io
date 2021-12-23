@@ -14,6 +14,7 @@ const about = {
   social: {
     linkedin: 'https://www.linkedin.com/in/shujaatazim/',
     github: 'https://github.com/ShujaatAzim',
+    blog: 'https://dev.to/shujaatazim'
   },
 }
 
