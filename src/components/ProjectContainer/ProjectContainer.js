@@ -1,7 +1,8 @@
-import uniqid from 'uniqid'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LaunchIcon from '@material-ui/icons/Launch'
-import './ProjectContainer.css'
+import uniqid from 'uniqid';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LaunchIcon from '@material-ui/icons/Launch';
+import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
+import './ProjectContainer.css';
 
 const ProjectContainer = ({ project }) => (
   <div className='project'>
@@ -16,20 +17,27 @@ const ProjectContainer = ({ project }) => (
           </li>
         ))}
       </ul>
-    )}
+    )};
 
     {project.sourceCode && (
       <a href={project.sourceCode} aria-label='source code' className='link link--icon'>
         <GitHubIcon /> Code
       </a>
-    )}
+    )};
     
     {project.livePreview && (
       <a href={project.livePreview} aria-label='live preview' className='link link--icon'>
-        <LaunchIcon /> Demo
+        <VideoLibraryIcon /> Demo
       </a>
-    )}
-  </div>
-)
+    )};
 
-export default ProjectContainer
+    {project.livePreview && (
+      <a href={project.livePreview} aria-label='live preview' className='link link--icon'>
+        <LaunchIcon /> Try It!
+      </a>
+    )};
+
+  </div>
+);
+
+export default ProjectContainer;
