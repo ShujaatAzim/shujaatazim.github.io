@@ -54,6 +54,7 @@ const skills = [
   'Ruby on Rails',
   'Javascript',
   'Ruby',
+  'Vue',
   'HTML',
   'CSS',
   'Redux',
@@ -61,6 +62,16 @@ const skills = [
   'Material UI',
   'Git',
   'Jest',
+  'Node.js',
+  'Recoil.js',
+  'REST API',
+  'Postgres',
+  'GraphQL',
+  'Firebase',
+  'Bootstrap',
+  'Bulma',
+  'AWS',
+  'Heroku'
 ]
 
 const contact = {

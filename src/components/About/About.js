@@ -30,12 +30,12 @@ const About = () => {
           <>
             {social.github && (
               <a href={social.github} aria-label='github' className='link link--icon'>
-                <GitHubIcon />
+                <GitHubIcon /> GitHub
               </a>
             )}
             {social.linkedin && (
               <a href={social.linkedin} aria-label='linkedin' className='link link--icon'>
-                <LinkedInIcon />
+                <LinkedInIcon /> LinkedIn 
               </a>
             )}
             {/* {social.linkedin && (
