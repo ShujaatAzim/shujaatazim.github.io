@@ -2,13 +2,11 @@ import PokeBookDemo from './demos/PokeBookDemo.mp4';
 import TweedleDooDemo from './demos/TweedleDooDemo.mp4';
 
 const header = {
-  // all the properties are optional - can be left empty or deleted
   homepage: "https://shujaatazim.github.io/",
   title: "SA.",
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
   name: "Shujaat Azim",
   role: "Full Stack Software Engineer",
   description:
@@ -22,12 +20,10 @@ const about = {
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: "Pokébook",
     description:
-      "Finally! A way to track and share your Pokemon Card collection to help you with trading, selling, and showing off!",
+      "A full stack webapp that is used to help keep track of, share, trade, sell, and show off your Pokemon Card collection!",
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
     livePreview: "https://pokebook.shujaatazim.com",
@@ -36,7 +32,7 @@ const projects = [
   {
     name: "TweedleDoo",
     description:
-      "Not just your simple, everyday to-do list! Create multiple lists, fill them with bite-sized tasks, and watch your productivity soar!",
+      "Not just your simple, everyday to-do list! You can create multiple lists, with full CRUD funtionality, and fill them wuth bite-sized tasks!",
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
     livePreview: "https://tweedledoo.shujaatazim.com",
@@ -45,7 +41,7 @@ const projects = [
   {
     name: "Projective",
     description:
-      "A project management app that breaks down large projects into manageable pieces. Full stack app built just in Rails!",
+      "A project management app that can be used to break down large projects into smaller, manageable pieces. A full stack app built just in Rails!",
     stack: ["Rails", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/Projective",
     livePreview: "https://projective.shujaatazim.com",
@@ -54,8 +50,6 @@ const projects = [
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   "React",
   "Ruby on Rails",
   "Javascript",
@@ -81,7 +75,6 @@ const skills = [
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: "shujaatazim@gmail.com",
 }
 
