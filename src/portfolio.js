@@ -1,3 +1,6 @@
+import PokeBookDemo from './demos/PokeBookDemo.mp4';
+import TweedleDooDemo from './demos/TweedleDooDemo.mp4';
+
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: "https://shujaatazim.github.io/",
@@ -28,6 +31,7 @@ const projects = [
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
     livePreview: "https://pokebook.shujaatazim.com",
+    demo: PokeBookDemo
   },
   {
     name: "TweedleDoo",
@@ -36,6 +40,7 @@ const projects = [
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
     livePreview: "https://tweedledoo.shujaatazim.com",
+    demo: TweedleDooDemo
   },
   {
     name: "Projective",
@@ -44,6 +49,7 @@ const projects = [
     stack: ["Rails", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/Projective",
     livePreview: "https://projective.shujaatazim.com",
+    demo: ""
   },
 ]
 
