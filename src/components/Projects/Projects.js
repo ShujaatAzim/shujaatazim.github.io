@@ -1,7 +1,7 @@
-import uniqid from 'uniqid'
-import { projects } from '../../portfolio'
-import ProjectContainer from '../ProjectContainer/ProjectContainer'
-import './Projects.css'
+import uniqid from 'uniqid';
+import { projects } from '../../portfolio';
+import ProjectContainer from '../ProjectContainer/ProjectContainer';
+import './Projects.css';
 
 const Projects = () => {
   if (!projects.length) return null
@@ -16,7 +16,7 @@ const Projects = () => {
         ))}
       </div>
     </section>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

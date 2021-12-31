@@ -1,5 +1,5 @@
-import { contact } from '../../portfolio'
-import './Contact.css'
+import { contact } from '../../portfolio';
+import './Contact.css';
 
 const Contact = () => {
   if (!contact.email) return null
@@ -13,7 +13,7 @@ const Contact = () => {
         </span>
       </a>
     </section>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
