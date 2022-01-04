@@ -50,6 +50,15 @@ const projects = [
     livePreview: "https://projective.shujaatazim.com",
     demo: ""
   },
+  {
+    name: "VueTasks",
+    description:
+      "A simiple task/to-do list built in Vue.js, serving to demonstrate my skills in a different component-based framework!",
+    stack: ["Vue", "Javascript"],
+    sourceCode: "https://github.com/ShujaatAzim/VueTasks",
+    livePreview: "",
+    demo: ""
+  },
 ]
 
 const skills = [
