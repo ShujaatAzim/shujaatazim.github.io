@@ -1,6 +1,7 @@
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import BookmarksIcon from "@material-ui/icons/Bookmarks";
+import ResumeIcon from "@material-ui/icons/Assignment";
 import { about } from "../../portfolio";
 import "./About.css";
 
@@ -42,6 +43,11 @@ const About = () => {
             {social.blog && (
               <a href={social.blog} aria-label="blog" className="link link--icon" target="_blank" rel="noreferrer">
                 <BookmarksIcon /> Blog
+              </a>
+            )}
+            {social.resume && (
+              <a href={social.resume} aria-label="blog" className="link link--icon" target="_blank" rel="noreferrer">
+                <ResumeIcon /> Resume
               </a>
             )}
           </>
