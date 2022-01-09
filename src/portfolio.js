@@ -51,24 +51,24 @@ const projects = [
     livePreview: "https://projective.shujaatazim.com",
     demo: ""
   },
-  // {
-  //   name: "VueTasks",
-  //   description:
-  //     "A simiple task/to-do list built in Vue.js, serving to demonstrate my skills in a different component-based framework!",
-  //   stack: ["Vue", "Javascript"],
-  //   sourceCode: "https://github.com/ShujaatAzim/VueTasks",
-  //   livePreview: "",
-  //   demo: ""
-  // },
-  // {
-  //   name: "D3Graphs",
-  //   description:
-  //     "A graph built with React and visualized with D3! Tracks the price of Bitcoin for the last 30 days!",
-  //   stack: ["React", "Javascript", "D3.js"],
-  //   sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
-  //   livePreview: "https://d3graphs.shujaatazim.com",
-  //   demo: ""
-  // },
+  {
+    name: "VueTasks",
+    description:
+      "A simiple task/to-do list built in Vue.js, serving to demonstrate my skills in a different component-based framework!",
+    stack: ["Vue", "Javascript"],
+    sourceCode: "https://github.com/ShujaatAzim/VueTasks",
+    livePreview: "",
+    demo: ""
+  },
+  {
+    name: "D3Graphs",
+    description:
+      "A graph built with React and visualized with D3! Tracks the price of Bitcoin for the last 30 days!",
+    stack: ["React", "Javascript", "D3.js"],
+    sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
+    livePreview: "https://d3graphs.shujaatazim.com",
+    demo: ""
+  },
 ]
 
 const skills = [
