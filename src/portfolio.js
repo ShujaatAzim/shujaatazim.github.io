@@ -82,6 +82,7 @@ const skills = [
   "Redux",
   "SASS",
   "Material UI",
+  "Bootstrap",
   "Git",
   "Jest",
   "Node.js",
@@ -90,7 +91,6 @@ const skills = [
   "Postgres",
   "GraphQL",
   "Firebase",
-  "Bootstrap",
   "Bulma",
   "AWS",
   "Heroku"
