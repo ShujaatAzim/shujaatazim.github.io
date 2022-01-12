@@ -46,7 +46,7 @@ const About = () => {
               </a>
             )}
             {social.resume && (
-              <a href={social.resume} aria-label="blog" className="link link--icon" target="_blank" rel="noreferrer">
+              <a href={social.resume} aria-label="blog" type="application/pdf" className="link link--icon" target="_blank" rel="noreferrer">
                 <ResumeIcon /> Resume
               </a>
             )}
