@@ -27,7 +27,7 @@ const projects = [
   {
     name: "Pokébook",
     description:
-      "A full stack webapp that is used to help keep track of, share, trade, sell, and show off your Pokemon Card collection!",
+      "A full stack webapp that enables a user to easily keep document, update, share, trade, sell, and show off their Pokemon Card collection! No other app does it all!",
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
     livePreview: "https://pokebook.shujaatazim.com",
@@ -36,7 +36,7 @@ const projects = [
   {
     name: "TweedleDoo",
     description:
-      "Not just your simple, everyday to-do list! You can create multiple lists, with full CRUD funtionality, and fill them with bite-sized tasks!",
+      "Not just your simple, everyday to-do list! You can create multiple lists with full CRUD funtionality, fill them with bite-sized tasks, and watch productivity soar!",
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
     livePreview: "https://tweedledoo.shujaatazim.com",
@@ -45,30 +45,39 @@ const projects = [
   {
     name: "Projective",
     description:
-      "A project management app that can be used to break down large projects into smaller, manageable pieces. A full stack app built in Rails!",
+      "A project management app that can be used to break down large projects into smaller, manageable pieces. A full stack app built in just the Ruby on Rails framework!",
     stack: ["Rails", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/Projective",
     livePreview: "https://projective.shujaatazim.com",
     demo: ""
   },
-  // {
-  //   name: "VueTasks",
-  //   description:
-  //     "A simiple task/to-do list built in Vue.js, serving to demonstrate my skills in a different component-based framework!",
-  //   stack: ["Vue", "Javascript"],
-  //   sourceCode: "https://github.com/ShujaatAzim/VueTasks",
-  //   livePreview: "",
-  //   demo: ""
-  // },
-  // {
-  //   name: "D3Graphs",
-  //   description:
-  //     "A graph built with React and visualized with D3! Tracks the price of Bitcoin for the last 30 days!",
-  //   stack: ["React", "Javascript", "D3.js"],
-  //   sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
-  //   livePreview: "https://d3graphs.shujaatazim.com",
-  //   demo: ""
-  // },
+  {
+    name: "VueTasks",
+    description:
+      "A simiple task/to-do list built in Vue.js, serving to demonstrate my skills in a different component-based framework!",
+    stack: ["Vue", "Javascript"],
+    sourceCode: "https://github.com/ShujaatAzim/VueTasks",
+    livePreview: "",
+    demo: ""
+  },
+  {
+    name: "D3Graphs",
+    description:
+      "A graph built with React and visualized with D3! Tracks the price of the wildly popular crypto-currency Bitcoin for the last 30 days!",
+    stack: ["React", "Javascript", "D3.js"],
+    sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
+    livePreview: "https://d3graphs.shujaatazim.com",
+    demo: ""
+  },
+  {
+    name: "Original Portfolio Site",
+    description:
+      "My first portfolio site, built entirely from scratch in React! Originally intended to showcase my skills building a static website, it has since been replaced (by this one)!",
+    stack: ["React", "Javascript"],
+    sourceCode: "https://github.com/ShujaatAzim/Portfolio",
+    livePreview: "https://www.shujaatazim.com",
+    demo: ""
+  },
 ]
 
 const skills = [

@@ -25,7 +25,7 @@ const ProjectContainer = ({ project }) => (
       </a>
     )}
     
-    {project.livePreview && (
+    {project.demo && (
       <a href={project.demo} aria-label="live preview" className="link link--icon" target="_blank" rel="noreferrer">
         <VideoLibraryIcon /> Demo
       </a>
