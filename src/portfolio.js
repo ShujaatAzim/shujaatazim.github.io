@@ -54,7 +54,7 @@ const projects = [
   {
     name: "VueTasks",
     description:
-      "A simiple task/to-do list built in Vue.js, serving to demonstrate my skills in a different component-based framework!",
+      "A simiple task/to-do list built in Vue.js, serving to demonstrate my skills in a completely different component-based framework! ",
     stack: ["Vue", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/VueTasks",
     livePreview: "",
