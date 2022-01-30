@@ -72,7 +72,7 @@ const projects = [
   {
     name: "Original Portfolio Site",
     description:
-      "My first portfolio site, built entirely from scratch in React! Originally intended to showcase my skills building a static website, it has since been replaced (by this one)!",
+      "My first portfolio site, built entirely from scratch in React! Originally intended to showcase my skills building a static website, it has since been replaced by this one!",
     stack: ["React", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/Portfolio",
     livePreview: "https://www.shujaatazim.com",
