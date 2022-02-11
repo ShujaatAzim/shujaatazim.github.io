@@ -78,6 +78,15 @@ const projects = [
     livePreview: "https://www.shujaatazim.com",
     demo: ""
   },
+  {
+    name: "Taskify",
+    description:
+      "A simple todo list app built to illustrate my skills in using React with Typescript instead of Javascript, as well as with style libraries that enable drag and drop features!",
+    stack: ["Typescript", "React", "Javascript"],
+    sourceCode: "https://github.com/ShujaatAzim/Taskify",
+    livePreview: "",
+    demo: ""
+  },
 ]
 
 const skills = [
