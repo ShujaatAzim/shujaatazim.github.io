@@ -1,4 +1,3 @@
-import PokeBookDemo from './demos/PokeBookDemo.mp4';
 import TweedleDooDemo from './demos/TweedleDooDemo.mp4';
 
 const header = {
@@ -31,7 +30,7 @@ const projects = [
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
     livePreview: "https://pokebook.shujaatazim.com",
-    demo: PokeBookDemo
+    demo: ""
   },
   {
     name: "TweedleDoo",
@@ -54,7 +53,7 @@ const projects = [
   {
     name: "VueTasks",
     description:
-      "A simiple task/to-do list built in Vue.js, serving to demonstrate my skills in a completely different component-based framework! ",
+      "A simiple task/to-do list built in Vue.js rather than in React, serving to demonstrate my skills in a completely different component-based framework! ",
     stack: ["Vue", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/VueTasks",
     livePreview: "",
@@ -79,11 +78,11 @@ const projects = [
     demo: ""
   },
   {
-    name: "Taskify",
+    name: "Taski",
     description:
-      "A simple todo list app built to illustrate my skills in using React with Typescript instead of Javascript, as well as with style libraries that enable drag and drop features!",
+      "A simple todo list app built to illustrate my skills in using React with Typescript rather than JS, as well as with style libraries that enable drag and drop features!",
     stack: ["Typescript", "React", "Javascript"],
-    sourceCode: "https://github.com/ShujaatAzim/Taskify",
+    sourceCode: "https://github.com/ShujaatAzim/Taski",
     livePreview: "",
     demo: ""
   },
@@ -93,6 +92,7 @@ const skills = [
   "React",
   "Ruby on Rails",
   "Javascript",
+  "Typescript",
   "Ruby",
   "Vue",
   "HTML",
