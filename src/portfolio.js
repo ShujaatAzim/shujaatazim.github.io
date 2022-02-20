@@ -51,6 +51,15 @@ const projects = [
     demo: ""
   },
   {
+    name: "Ruby Tidbits",
+    description:
+      "An app filled with mini logic demonstrations built with just Ruby and Ruby on Rails! This is a fun, lightweight app created to show my prowess with Ruby and with Rails as a framework!",
+    stack: ["Rails", "Ruby"],
+    sourceCode: "https://github.com/ShujaatAzim/RubyTidbits",
+    livePreview: "https://tidbits.shujaatazim.com",
+    demo: ""
+  },
+  {
     name: "VueTasks",
     description:
       "A simiple task/to-do list built in Vue.js rather than in React, serving to demonstrate my skills in a completely different component-based framework! ",
@@ -62,7 +71,7 @@ const projects = [
   {
     name: "D3Graphs",
     description:
-      "A graph built with React and visualized with D3! Tracks the price of the wildly popular crypto-currency Bitcoin for the last 30 days!",
+      "A graph built with React and visualized with D3! Tracks the price of the wildly-popular cryptocurrency Bitcoin for the last 30 days!",
     stack: ["React", "Javascript", "D3.js"],
     sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
     livePreview: "https://d3graphs.shujaatazim.com",
@@ -101,6 +110,7 @@ const skills = [
   "SASS",
   "Material UI",
   "Bootstrap",
+  "D3.js",
   "Git",
   "Jest",
   "Node.js",
