@@ -12,7 +12,7 @@ const ProjectContainer = ({ project }) => (
     {project.stack && (
       <ul className="project__stack">
         {project.stack.map((item) => (
-          <li key={uniqid()} className="project__stack-item">
+          <li key={uniqid()} className="project__stack-item" style={{ color: "var(--clr-primary)", fontWeight: "bold" }}>
             {item}
           </li>
         ))}
