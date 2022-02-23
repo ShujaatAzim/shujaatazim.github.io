@@ -89,7 +89,7 @@ const projects = [
   {
     name: "Taski",
     description:
-      "A simple todo list app built to illustrate my skills in using React with Typescript rather than JS, as well as with style libraries that enable drag and drop features!",
+      "A simple todo list app built to illustrate my skills in using React with Typescript rather than with JS, along with style libraries that enable drag and drop features!",
     stack: ["Typescript", "React", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/Taski",
     livePreview: "",
