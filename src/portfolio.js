@@ -71,10 +71,19 @@ const projects = [
   {
     name: "D3Graphs",
     description:
-      "A graph built with React and visualized with D3! Tracks the price of the wildly-popular cryptocurrency Bitcoin for the last 30 days!",
+      "A graph built with React and visualized with the graphical visualization library D3.js! Tracks the price of the wildly-popular cryptocurrency Bitcoin for the last 30 days!",
     stack: ["React", "Javascript", "D3.js"],
     sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
     livePreview: "https://d3graphs.shujaatazim.com",
+    demo: ""
+  },
+  {
+    name: "Hacker News Search",
+    description:
+      "A simple app that a visitor can use to search through Hacker News articles with whatever search terms they want, and also keeps track of the terms searched for the session!",
+    stack: ["React", "Javascript"],
+    sourceCode: "https://github.com/ShujaatAzim/hnsearch",
+    livePreview: "https://hnsearch.shujaatazim.com",
     demo: ""
   },
   {
