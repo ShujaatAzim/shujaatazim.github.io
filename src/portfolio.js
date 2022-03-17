@@ -82,7 +82,7 @@ const projects = [
     description:
       "A simple app that a visitor can use to search through Hacker News articles with whatever search terms they want, and also keeps track of the terms searched for the session!",
     stack: ["React", "Javascript"],
-    sourceCode: "https://github.com/ShujaatAzim/hnsearch",
+    sourceCode: "https://github.com/ShujaatAzim/HackerNewsSearch",
     livePreview: "https://hnsearch.shujaatazim.com",
     demo: ""
   },
