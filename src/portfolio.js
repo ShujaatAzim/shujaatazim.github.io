@@ -62,7 +62,7 @@ const projects = [
   {
     name: "VueTasks",
     description:
-      "A simiple task/to-do list built in Vue.js rather than in React, serving to demonstrate my skills in a completely different component-based framework! ",
+      "A simiple task/to-do list built in Vue.js rather than in React, with drag and drop features, demonstrating my skills in a completely different component-based framework! ",
     stack: ["Vue", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/VueTasks",
     livePreview: "",
@@ -80,7 +80,7 @@ const projects = [
   {
     name: "Hacker News Search",
     description:
-      "A simple app that a visitor can use to search through Hacker News articles with whatever search terms they want, and also keeps track of the terms searched for the session!",
+      "A simple app that a visitor can use to search through Hacker News articles with whatever search terms they want, and keeps track of the terms searched!",
     stack: ["React", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/HackerNewsSearch",
     livePreview: "https://hnsearch.shujaatazim.com",
