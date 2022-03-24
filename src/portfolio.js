@@ -18,7 +18,7 @@ const about = {
     linkedin: "https://www.linkedin.com/in/shujaatazim/",
     github: "https://github.com/ShujaatAzim",
     blog: "https://dev.to/shujaatazim",
-    resume: "ShujaatAzimCV.pdf"
+    resume: "Resume.pdf"
   },
 }
 
@@ -26,7 +26,8 @@ const projects = [
   {
     name: "Pokébook",
     description:
-      "A full stack webapp that enables a user to easily keep document, update, share, trade, sell, and show off their Pokemon Card collection! No other app does it all!",
+      `A full stack webapp that enables a user to easily keep document, update, share, trade, sell, and show off their Pokemon Card collection!
+      No other app does it all!`,
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
     livePreview: "https://pokebook.shujaatazim.com",
@@ -35,7 +36,8 @@ const projects = [
   {
     name: "TweedleDoo",
     description:
-      "Not just your simple, everyday to-do list! You can create multiple lists with full CRUD funtionality, fill them with bite-sized tasks, and watch productivity soar!",
+      `Not just your simple, everyday to-do list! You can create multiple lists with full CRUD funtionality, fill them with bite-sized tasks, 
+      and watch productivity soar!`,
     stack: ["React", "Rails", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
     livePreview: "https://tweedledoo.shujaatazim.com",
@@ -44,7 +46,8 @@ const projects = [
   {
     name: "Projective",
     description:
-      "A project management app that can be used to break down large projects into smaller, manageable pieces. A full stack app built in just the Ruby on Rails framework!",
+      `A project management app that can be used to break down large projects into smaller, manageable pieces. A full stack app built in just the 
+      Ruby on Rails framework!`,
     stack: ["Rails", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/Projective",
     livePreview: "https://projective.shujaatazim.com",
@@ -53,7 +56,8 @@ const projects = [
   {
     name: "Ruby Tidbits",
     description:
-      "An app filled with mini logic demonstrations built with just Ruby and Ruby on Rails! This is a fun, lightweight app created to show my prowess with Ruby and with Rails as a framework!",
+      `An app filled with mini logic demonstrations built with just Ruby and Ruby on Rails! This is a fun, lightweight app created to show my prowess 
+      with Ruby and with Rails as a framework!`,
     stack: ["Rails", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/RubyTidbits",
     livePreview: "https://tidbits.shujaatazim.com",
@@ -62,7 +66,8 @@ const projects = [
   {
     name: "VueTasks",
     description:
-      "A simiple task/to-do list built in Vue.js rather than in React, with drag and drop features, demonstrating my skills in a completely different component-based framework! ",
+      `A simiple task/to-do list built in Vue.js rather than in React, with drag and drop features, demonstrating my skills in a completely different 
+      component-based framework!`,
     stack: ["Vue", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/VueTasks",
     livePreview: "",
@@ -71,7 +76,8 @@ const projects = [
   {
     name: "D3Graphs",
     description:
-      "A graph built with React and visualized with the graphical visualization library D3.js! Tracks the price of the wildly-popular cryptocurrency Bitcoin for the last 30 days!",
+      `A graph built with React and visualized with the graphical visualization library D3.js! Tracks the price of the wildly-popular cryptocurrency 
+      Bitcoin for the last 30 days!`,
     stack: ["React", "Javascript", "D3.js"],
     sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
     livePreview: "https://d3graphs.shujaatazim.com",
@@ -80,7 +86,7 @@ const projects = [
   {
     name: "Hacker News Search",
     description:
-      "A simple app that a visitor can use to search through Hacker News articles with whatever search terms they want, and keeps track of the terms searched!",
+      `A simple app that a visitor can use to search through Hacker News articles with whatever search terms they want, and keeps track of the terms searched!`,
     stack: ["React", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/HackerNewsSearch",
     livePreview: "https://hnsearch.shujaatazim.com",
@@ -89,7 +95,8 @@ const projects = [
   {
     name: "Original Portfolio Site",
     description:
-      "My first portfolio site, built entirely from scratch in React! Originally intended to showcase my skills building a static website, it has since been replaced by this one!",
+      `My first portfolio site, built entirely from scratch in React! Originally intended to showcase my skills building a static website, it has since 
+      been replaced by this one!`,
     stack: ["React", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/Portfolio",
     livePreview: "https://www.shujaatazim.com",
@@ -98,7 +105,8 @@ const projects = [
   {
     name: "Taski",
     description:
-      "A simple todo list app built to illustrate my skills in using React with Typescript rather than with JS, along with style libraries that enable drag and drop features!",
+      `A simple todo list app built to illustrate my skills in using React with Typescript rather than with JS, along with style libraries that enable 
+      drag and drop features!`,
     stack: ["Typescript", "React", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/Taski",
     livePreview: "",
