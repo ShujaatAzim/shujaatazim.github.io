@@ -128,7 +128,7 @@ const skills = [
   "Material UI",
   "Bootstrap",
   "D3.js",
-  "Git",
+  "Git/GitHub",
   "Jest",
   "Node.js",
   "Recoil.js",
