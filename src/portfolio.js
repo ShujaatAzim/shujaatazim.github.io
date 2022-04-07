@@ -1,5 +1,3 @@
-import TweedleDooDemo from './demos/TweedleDooDemo.mp4';
-
 const header = {
   homepage: "https://shujaatazim.github.io/",
   title: "SA.",
@@ -28,7 +26,7 @@ const projects = [
     description:
       `A full stack webapp that enables a user to easily keep document, update, share, trade, sell, and show off their Pokemon Card collection!
       No other app does it all!`,
-    stack: ["React", "Rails", "Javascript"],
+    stack: ["React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
     livePreview: "https://pokebook.shujaatazim.com",
     demo: ""
@@ -38,10 +36,10 @@ const projects = [
     description:
       `Not just your simple, everyday to-do list! You can create multiple lists with full CRUD funtionality, fill them with bite-sized tasks, 
       and watch productivity soar!`,
-    stack: ["React", "Rails", "Javascript"],
+    stack: ["React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
     livePreview: "https://tweedledoo.shujaatazim.com",
-    demo: TweedleDooDemo
+    demo: ""
   },
   {
     name: "Projective",
@@ -93,16 +91,6 @@ const projects = [
     demo: ""
   },
   {
-    name: "Original Portfolio Site",
-    description:
-      `My first portfolio site, built entirely from scratch in React! Originally intended to showcase my skills building a static website, it has since 
-      been replaced by this one!`,
-    stack: ["React", "Javascript"],
-    sourceCode: "https://github.com/ShujaatAzim/Portfolio",
-    livePreview: "https://www.shujaatazim.com",
-    demo: ""
-  },
-  {
     name: "Taski",
     description:
       `A simple todo list app built to illustrate my skills in using React with Typescript rather than with JS, along with style libraries that enable 
@@ -110,6 +98,16 @@ const projects = [
     stack: ["Typescript", "React", "Javascript"],
     sourceCode: "https://github.com/ShujaatAzim/Taski",
     livePreview: "",
+    demo: ""
+  },
+  {
+    name: "Original Portfolio Site",
+    description:
+      `My first portfolio site, built entirely from scratch in React! Originally intended to showcase my skills building a static website, it has since 
+      been replaced by this one!`,
+    stack: ["React", "Javascript"],
+    sourceCode: "https://github.com/ShujaatAzim/Portfolio",
+    livePreview: "https://www.shujaatazim.com",
     demo: ""
   },
 ]
