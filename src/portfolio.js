@@ -18,7 +18,7 @@ const about = {
     linkedin: "https://www.linkedin.com/in/shujaatazim/",
     github: "https://github.com/ShujaatAzim",
     blog: "https://dev.to/shujaatazim",
-    resume: "Resume.pdf"
+    resume: "ShujaatAzimCV.pdf"
   },
 }
 
