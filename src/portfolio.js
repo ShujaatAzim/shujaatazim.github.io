@@ -119,6 +119,7 @@ const skills = [
   "Typescript",
   "Ruby",
   "Vue",
+  "Next.js",
   "HTML",
   "CSS",
   "Redux",
