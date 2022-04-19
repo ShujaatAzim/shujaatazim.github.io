@@ -118,15 +118,17 @@ const skills = [
   "Javascript",
   "Typescript",
   "Ruby",
-  "Vue",
+  "Vue.js",
   "Next.js",
+  "D3.js",
   "HTML",
   "CSS",
   "Redux",
   "SASS",
   "Material UI",
   "Bootstrap",
-  "D3.js",
+  "Bulma",
+  "Blueprint",
   "Git/GitHub",
   "Jest",
   "Node.js",
@@ -135,9 +137,9 @@ const skills = [
   "Postgres",
   "GraphQL",
   "Firebase",
-  "Bulma",
   "AWS",
-  "Heroku"
+  "Heroku",
+  "Postman/Insomnia"
 ]
 
 const contact = {
