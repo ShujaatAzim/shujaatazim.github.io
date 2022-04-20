@@ -131,6 +131,7 @@ const skills = [
   "Blueprint",
   "Git/GitHub",
   "Jest",
+  "RSpec",
   "Node.js",
   "Recoil.js",
   "REST API",
