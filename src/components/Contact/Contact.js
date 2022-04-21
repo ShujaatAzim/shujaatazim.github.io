@@ -9,7 +9,7 @@ const Contact = () => {
       <h2 style={{ color: "var(--clr-primary)"}} className='section__title'>Contact</h2>
       <a href={`mailto:${contact.email}`}>
         <span type='button' className='btn btn--outline'>
-          Email me
+          Email Me!
         </span>
       </a>
     </section>
