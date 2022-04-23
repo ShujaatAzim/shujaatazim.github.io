@@ -135,7 +135,7 @@ const skills = [
   "Node.js",
   "Recoil.js",
   "REST API",
-  "Postgres",
+  "PostgreSQL",
   "GraphQL",
   "Firebase",
   "AWS",
