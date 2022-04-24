@@ -9,7 +9,7 @@ const about = {
   description: [
     "I am an enthusiastic full stack software engineer with a background in, and passion for technology, medicine, and finance.",
     "I'm a seasoned professional with a diverse background in many fields, which enables me to quickly adopt and master new technologies.",
-    "I'm also always eager to continue learning and improving!"
+    "I'm always eager to continue learning and improving!"
   ],
   resume: "",
   social: {
