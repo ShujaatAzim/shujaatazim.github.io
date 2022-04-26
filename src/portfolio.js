@@ -34,8 +34,7 @@ const projects = [
   {
     name: "TweedleDoo",
     description:
-      `Not just your simple, everyday to-do list! You can create multiple lists with full CRUD funtionality, fill them with bite-sized tasks, 
-      and watch productivity soar!`,
+      `A full stack webapp you can use to create multiple to-do lists with full CRUD funtionality, and fill them with bite-sized tasks for efficient completion!`,
     stack: ["React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
     livePreview: "https://tweedledoo.shujaatazim.com",
