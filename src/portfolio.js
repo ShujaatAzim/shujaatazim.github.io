@@ -125,6 +125,7 @@ const skills = [
   "CSS",
   "Redux",
   "SASS",
+  "Tailwind",
   "Material UI",
   "Bootstrap",
   "Bulma",
