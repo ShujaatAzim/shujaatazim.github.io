@@ -141,7 +141,8 @@ const skills = [
   "Firebase",
   "AWS",
   "Heroku",
-  "Postman/Insomnia"
+  "Postman",
+  "Insomnia"
 ]
 
 const contact = {
