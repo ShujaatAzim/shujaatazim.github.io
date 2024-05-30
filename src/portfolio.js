@@ -24,8 +24,9 @@ const projects = [
   {
     name: 'PokéBook',
     description:
-      `A full-stack web app that enables users to effortlessly document, update, share, trade, sell, and showcase their Pokémon Card collections. 
-      No other app offers this all-in-one experience! It has even been used by a few enthusiasts on Reddit, much to their approval!`,
+      `A full-stack web app that enables users to effortlessly document, update, share, and showcase their Pokémon Card collections. It also 
+      generates a read-only link to your collection with no editing features enabled, providing a safe way to share to others. It has even 
+      been used by a few enthusiasts on Reddit, much to their approval!`,
     stack: ['Vite', 'React', 'Rails', 'Javascript', 'Ruby'],
     sourceCode: 'https://github.com/ShujaatAzim/PokeBook-Frontend',
     live: 'https://pokebook.shujaatazim.com',
@@ -63,8 +64,9 @@ const projects = [
   {
     name: 'Ruby Tidbits',
     description:
-      `A collection of mini logic demonstrations built entirely the Ruby on Rails framework using the Ruby language. This 
-      lightweight app showcases my expertise with Ruby and the Rails framework in a fun, interactive way!`,
+      `A collection of mini logic demonstrations commonly encountered early on in coding careers, such as a palidrome checker 
+      and finding the largest prime factor. This lightweight app showcases my expertise with Ruby and the Rails framework. Bonus: 
+      it is fully responsive for mobile views!`,
     stack: ['Rails', 'Ruby'],
     sourceCode: 'https://github.com/ShujaatAzim/RubyTidbits',
     live: 'https://tidbits.shujaatazim.com',
@@ -165,7 +167,6 @@ const certificates = [
     pdf: '/fCCResponsiveCertificate.pdf'
   }
 ]
-
 
 const contact = {
   email: 'shujaatazim@gmail.com',
