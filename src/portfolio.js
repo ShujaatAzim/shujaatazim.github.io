@@ -113,13 +113,13 @@ const projects = [
 ]
 
 const skills = [
+  "Next.js",
   "React",
   "Ruby on Rails",
   "Javascript",
   "Typescript",
   "Ruby",
   "Vue.js",
-  "Next.js",
   "D3.js",
   "HTML",
   "CSS",
@@ -127,9 +127,6 @@ const skills = [
   "SASS",
   "Tailwind",
   "Material UI",
-  "Bootstrap",
-  "Bulma",
-  "Blueprint",
   "Git/GitHub",
   "Jest",
   "RSpec",
@@ -142,7 +139,6 @@ const skills = [
   "AWS",
   "Heroku",
   "Postman",
-  "Insomnia"
 ]
 
 const contact = {
