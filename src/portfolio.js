@@ -5,9 +5,9 @@ const header = {
 
 const about = {
   name: "Shujaat Azim",
-  role: "Full Stack Software Engineer",
+  role: "Full Stack Developer & Software Engineer",
   description: [
-    "I am an enthusiastic full stack software engineer with a background in, and passion for technology, medicine, and finance.",
+    "I am an enthusiastic full stack developer and software enginee, with a background and passion for technology, medicine, and finance.",
     "I'm a seasoned professional with a diverse background in many fields, which enables me to quickly adopt and master new technologies.",
     "I'm always eager to continue learning and improving!"
   ],

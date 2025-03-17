@@ -16,7 +16,7 @@ const About = () => {
         </h1>
       )}
 
-      {role && <h2 className="about__role">I am a {role}!</h2>}
+      {role && <h2 className="about__role">I am a {role}</h2>}
       <p className="about__desc">{description && description.map(desc => `${desc}`).join(" ")}</p>
 
       <div className="about__contact center">
