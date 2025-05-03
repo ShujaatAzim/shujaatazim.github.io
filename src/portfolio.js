@@ -7,9 +7,9 @@ const about = {
   name: "Shujaat Azim",
   role: "Full Stack Developer & Software Engineer",
   description: [
-    "I am an enthusiastic full stack developer and software engineer, with a background and passion for technology, medicine, and finance.",
-    "I'm a seasoned professional with a diverse background in many fields, which enables me to quickly adopt and master new technologies.",
-    "I'm always eager to continue learning and improving!"
+    "I'm a full-stack developer and software engineer with a background in technology, medicine, and finance.",
+    "My path hasn’t been linear, but each step has shaped how I think, solve problems, and learn quickly.",
+    "I bring curiosity, adaptability, and a drive to keep growing — both professionally and personally."
   ],
   resume: "",
   social: {
