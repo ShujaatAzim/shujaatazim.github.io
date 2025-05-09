@@ -9,6 +9,7 @@
   font-size: inherit;
   box-shadow: none;
   box-sizing: border-box;
+  overscroll-behavior: none;
 }
 
 html {
