@@ -22,11 +22,11 @@ const about = {
 
 const projects = [
   {
-    name: "Pokébook",
+    name: "PokéBook",
     description:
       `A full stack webapp that enables a user to easily keep document, update, share, trade, sell, and show off their Pokemon Card collection!
       No other app does it all!`,
-    stack: ["React", "Rails", "Javascript", "Ruby"],
+    stack: ["Vite", "React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
     livePreview: "https://pokebook.shujaatazim.com",
     demo: ""
@@ -116,6 +116,7 @@ const skills = [
   "Next.js",
   "React",
   "Ruby on Rails",
+  "Vite",
   "Javascript",
   "Typescript",
   "Ruby",
@@ -123,13 +124,10 @@ const skills = [
   "D3.js",
   "HTML",
   "CSS",
-  "Redux",
-  "SASS",
   "Tailwind",
-  "Material UI",
   "Git/GitHub",
+  "Playwrght",
   "Jest",
-  "RSpec",
   "Node.js",
   "Recoil.js",
   "REST API",
