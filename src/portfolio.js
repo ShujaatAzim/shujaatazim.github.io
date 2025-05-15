@@ -24,8 +24,7 @@ const projects = [
   {
     name: "PokéBook",
     description:
-      `A full stack webapp that enables a user to easily keep document, update, share, trade, sell, and show off their Pokemon Card collection!
-      No other app does it all!`,
+      `A complete full-stack web app that lets you effortlessly document, update, share, trade, sell, and showcase your Pokémon Card collection. No other app offers this all-in-one experience!`,
     stack: ["Vite", "React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
     livePreview: "https://pokebook.shujaatazim.com",
@@ -34,80 +33,37 @@ const projects = [
   {
     name: "TweedleDoo",
     description:
-      `A full stack webapp you can use to create multiple to-do lists with full CRUD funtionality, and fill them with bite-sized tasks for efficient completion! 
-      Simple to use!`,
+      `A full-stack web app that lets you create multiple to-do lists with complete CRUD functionality. Organize tasks into bite-sized steps for efficient completion—all in an intuitive, user-friendly interface!`,
     stack: ["React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
     livePreview: "https://tweedledoo.shujaatazim.com",
     demo: ""
   },
   {
-    name: "Projective",
+    name: "Hacker News Search",
     description:
-      `A project management app that can be used to break down large projects into smaller, manageable pieces. A full stack app built in just the 
-      Ruby on Rails framework!`,
-    stack: ["Rails", "Ruby"],
-    sourceCode: "https://github.com/ShujaatAzim/Projective",
-    livePreview: "https://projective.shujaatazim.com",
+      `A straightforward, no-frills tool for exploring Hacker News articles. Instantly search with any keywords you choose and effortlessly track your search history!`,
+    stack: ["Vite", "React", "Javascript"],
+    sourceCode: "https://github.com/ShujaatAzim/HackerNewsSearch",
+    livePreview: "https://hnsearch.shujaatazim.com",
     demo: ""
   },
   {
     name: "Ruby Tidbits",
     description:
-      `An app filled with mini logic demonstrations built with just Ruby and Ruby on Rails! This is a fun, lightweight app created to show my prowess 
-      with Ruby and with Rails as a framework!`,
+      `A collection of mini logic demonstrations built entirely with Ruby and the Ruby on Rails framework. This lightweight app showcases my expertise with Ruby and the Rails framework in a fun, interactive way!`,
     stack: ["Rails", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/RubyTidbits",
     livePreview: "https://tidbits.shujaatazim.com",
     demo: ""
   },
   {
-    name: "VueTasks",
-    description:
-      `A simiple task/to-do list built in Vue.js rather than in React, with drag and drop features, demonstrating my skills in a completely different 
-      component-based framework!`,
-    stack: ["Vue", "Javascript"],
-    sourceCode: "https://github.com/ShujaatAzim/VueTasks",
-    livePreview: "",
-    demo: ""
-  },
-  {
     name: "D3Graphs",
     description:
-      `A graph built with React and visualized with the graphical visualization library D3.js! Tracks the price of the wildly-popular cryptocurrency 
-      Bitcoin for the last 30 days!`,
+      `An interactive graph built with React and powered by D3.js, dynamically visualizing Bitcoin's price trends over the past 30 days. A sleek, data-driven showcase of modern web development!`,
     stack: ["React", "Javascript", "D3.js"],
     sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
     livePreview: "https://d3graphs.shujaatazim.com",
-    demo: ""
-  },
-  {
-    name: "Hacker News Search",
-    description:
-      `A simple app that a visitor can use to search through Hacker News articles with whatever search terms they want, and keeps track of the terms searched!`,
-    stack: ["React", "Javascript"],
-    sourceCode: "https://github.com/ShujaatAzim/HackerNewsSearch",
-    livePreview: "https://hnsearch.shujaatazim.com",
-    demo: ""
-  },
-  {
-    name: "Taski",
-    description:
-      `A simple todo list app built to illustrate my skills in using React with Typescript rather than with JS, along with style libraries that enable 
-      drag and drop features!`,
-    stack: ["Typescript", "React", "Javascript"],
-    sourceCode: "https://github.com/ShujaatAzim/Taski",
-    livePreview: "",
-    demo: ""
-  },
-  {
-    name: "Original Portfolio Site",
-    description:
-      `My first portfolio site, built entirely from scratch in React! Originally intended to showcase my skills building a static website, it has since 
-      been replaced by this one!`,
-    stack: ["React", "Javascript"],
-    sourceCode: "https://github.com/ShujaatAzim/Portfolio",
-    livePreview: "https://www.shujaatazim.com",
     demo: ""
   },
 ]
