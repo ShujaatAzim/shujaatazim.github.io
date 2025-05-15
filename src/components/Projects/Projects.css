@@ -5,3 +5,29 @@
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.project .link--icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1;
+}
+
+@media (max-width: 600px) {
+  .project {
+    max-width: 450px;
+  }
+
+  .section__title {
+    max-width: 500px;
+  }
+}

@@ -17,19 +17,11 @@ const About = () => {
       )}
 
       {role && <h2 className="about__role">I am a {role}</h2>}
-      <p className="about__desc">{description && description.map(desc => `${desc}`).join(" ")}</p>
+      <p className="about__desc">{description}</p>
 
       <div className="about__contact center">
-        {resume && (
-          <a href={resume}>
-            <span type="button" className="btn btn--outline">
-              Resume
-            </span>
-          </a>
-        )}
-
         {social && (
-          <>
+          <div className="social-links">
             {social.github && (
               <a href={social.github} aria-label="github" className="link link--icon" target="_blank" rel="noreferrer">
                 <GitHubIcon /> GitHub
@@ -50,7 +42,7 @@ const About = () => {
                 <ResumeIcon /> Resume
               </a>
             )}
-          </>
+          </div>
         )}
       </div>
     </div>

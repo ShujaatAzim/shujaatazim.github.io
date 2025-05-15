@@ -13,7 +13,7 @@
 
 .about__desc {
   font-size: 1rem;
-  max-width: 600px;
+  max-width: 700px;
 }
 
 .about__desc,
@@ -22,7 +22,13 @@
 }
 
 .about .link--icon {
-  margin-right: 0.8em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  text-decoration: none;
+  font-size: 0.95rem;
+  line-height: 1;
+  margin-right: 2.5em;
 }
 
 .about .btn--outline {
@@ -31,7 +37,20 @@
 
 @media (max-width: 600px) {
   .app .about {
-    align-items: flex-start;
     margin-top: 2em;
+  }
+
+  .about__desc {
+  font-size: 1rem;
+  max-width: 400px;
+  text-align: left;
+  }
+
+  .social-links {
+   text-align: center;
+  }
+
+  .about .link--icon {
+    margin-right: 1.5em;
   }
 }
