@@ -1,5 +1,5 @@
 const header = {
-  homepage: "https://shujaatazim.github.io/",
+  homepage: "https://shujaatazim.com/",
   title: "SA.",
 }
 
@@ -28,8 +28,7 @@ const projects = [
       No other app offers this all-in-one experience! It has even been used by a few enthusiasts on Reddit, much to their approval!`,
     stack: ["Vite", "React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
-    livePreview: "https://pokebook.shujaatazim.com",
-    demo: ""
+    live: "https://pokebook.shujaatazim.com",
   },
   {
     name: "TweedleDoo",
@@ -39,8 +38,7 @@ const projects = [
       and practices!`,
     stack: ["React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
-    livePreview: "https://tweedledoo.shujaatazim.com",
-    demo: ""
+    live: "https://tweedledoo.shujaatazim.com",
   },
   {
     name: "City Skyline",
@@ -50,8 +48,7 @@ const projects = [
       animations and responsive design — often overlooked abilities in the age of AI.`,
     stack: ["CSS", "HTML", "Javascript", "Vite"],
     sourceCode: "https://github.com/ShujaatAzim/CitySkyline",
-    livePreview: "https://cityskyline.shujaatazim.com",
-    demo: ""
+    live: "https://cityskyline.shujaatazim.com",
   },
   {
     name: "Hacker News Search",
@@ -61,8 +58,7 @@ const projects = [
       in a timely fashion.`,
     stack: ["Vite", "React", "Javascript", "API"],
     sourceCode: "https://github.com/ShujaatAzim/HackerNewsSearch",
-    livePreview: "https://hnsearch.shujaatazim.com",
-    demo: ""
+    live: "https://hnsearch.shujaatazim.com",
   },
   {
     name: "Ruby Tidbits",
@@ -71,66 +67,73 @@ const projects = [
       lightweight app showcases my expertise with Ruby and the Rails framework in a fun, interactive way!`,
     stack: ["Rails", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/RubyTidbits",
-    livePreview: "https://tidbits.shujaatazim.com",
-    demo: ""
-  },
-  // {
-  //   name: "D3Graphs",
-  //   description:
-  //     `An interactive graph built with React and powered by D3.js, dynamically visualizing Bitcoin's price trends over the past 
-  //     30 days. A sleek, data-driven showcase of modern web development!`,
-  //   stack: ["React", "Javascript", "D3.js"],
-  //   sourceCode: "https://github.com/ShujaatAzim/D3Graphs",
-  //   livePreview: "https://d3graphs.shujaatazim.com",
-  //   demo: ""
-  // },
+    live: "https://tidbits.shujaatazim.com",
+  }
 ]
 
-const skills = {
-  languages: [
-    "Javascript",
-    "Typescript",
-    "Ruby",
-    "Python",
-    "C",
-    "HTML",
-    "CSS"
-  ],
-  frameworks: [
-    "Next",
-    "React",
-    "Vite",
-    "Nest",
-    "Rails",
-    "Vue"
-  ],
-  libraries: [
-    "D3",
-    "Tailwind",
-    "Jotai",
-    "Recoil",
-  ],
-  tools: [
-    "Node",
-    "Git",
-    "SQLite",
-    "PostgreSQL",
-    "GraphQL",
-    "REST API",
-    "Postman",
-    "Insomnia"
-  ],
-  platforms: [
-    "AWS",
-    "Firebase",
-    "Heroku",
-    "Dokku"
-  ],
-  testing: [
-    "Playwright",
-    "Jest"
-  ]
-};
+const skills = [
+  {
+    name: "Languages",
+    skills: [
+      "Javascript",
+      "Typescript",
+      "Ruby",
+      "Python",
+      "C",
+      "HTML",
+      "CSS"
+    ]
+  },
+  {
+    name: "Frameworks",
+    skills: [
+      "Next",
+      "React",
+      "Vite",
+      "Nest",
+      "Rails",
+      "Vue"
+    ],
+  },
+  {
+    name: "Libraries",
+    skills: [
+      "D3",
+      "Tailwind",
+      "Jotai",
+      "Recoil"
+    ],
+  },
+  {
+    name: "Tools",
+    skills: [
+      "Node",
+      "Git",
+      "SQLite",
+      "PostgreSQL",
+      "GraphQL",
+      "REST API",
+      "Postman",
+      "Insomnia"
+    ],
+  },
+  {
+    name: "Platforms",
+    skills: [
+      "AWS",
+      "Firebase",
+      "Heroku",
+      "Dokku"
+    ],
+  },
+  {
+    name: "Testing",
+    skills: [
+      "Playwright",
+      "Jest"
+    ]
+  }
+];
 
 
 const contact = {
