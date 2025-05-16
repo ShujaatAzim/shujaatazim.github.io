@@ -86,32 +86,52 @@ const projects = [
   // },
 ]
 
-const skills = [
-  "Next",
-  "React",
-  "Ruby on Rails",
-  "Vite",
-  "Javascript",
-  "Typescript",
-  "Ruby",
-  "Vue",
-  "D3",
-  "HTML",
-  "CSS",
-  "Tailwind",
-  "Git/GitHub",
-  "Playwrght",
-  "Jest",
-  "Node",
-  "Recoil",
-  "REST API",
-  "PostgreSQL",
-  "GraphQL",
-  "Firebase",
-  "AWS",
-  "Heroku",
-  "Postman",
-]
+const skills = {
+  languages: [
+    "Javascript",
+    "Typescript",
+    "Ruby",
+    "Python",
+    "C",
+    "HTML",
+    "CSS"
+  ],
+  frameworks: [
+    "Next",
+    "React",
+    "Vite",
+    "Nest",
+    "Rails",
+    "Vue"
+  ],
+  libraries: [
+    "D3",
+    "Tailwind",
+    "Jotai",
+    "Recoil",
+  ],
+  tools: [
+    "Node",
+    "Git",
+    "SQLite",
+    "PostgreSQL",
+    "GraphQL",
+    "REST API",
+    "Postman",
+    "Insomnia"
+  ],
+  platforms: [
+    "AWS",
+    "Firebase",
+    "Heroku",
+    "Dokku"
+  ],
+  testing: [
+    "Playwright",
+    "Jest"
+  ]
+};
+
 
 const contact = {
   email: "shujaatazim@gmail.com",
