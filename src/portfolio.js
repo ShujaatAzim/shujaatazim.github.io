@@ -7,9 +7,9 @@ const about = {
   name: "Shujaat Azim",
   role: "Full Stack Developer & Software Engineer",
   description: 
-    `I've been a full-stack developer since 2019, but my journey here has been anything but straight. 
+    `I've been a full-stack developer since 2019, but my journey has been anything but straight. 
     I've worked across different fields, including medicine, finance, and tech — each one taught me 
-    something different about problem-solving, learning, and staying adaptable. I'm genuinely grateful for those 
+    something different about learning, problem-solving, and adapting. I'm genuinely grateful for those 
     experiences because they shape how I approach challenges every day as a developer. I bring curiosity, resilience, 
     and a constant drive to keep growing, both in my career and personally.`,
   social: {
@@ -24,7 +24,7 @@ const projects = [
   {
     name: "PokéBook",
     description:
-      `A complete full-stack web app that lets you effortlessly document, update, share, trade, sell, and showcase your Pokémon Card collection. 
+      `A full-stack web app that enables users to effortlessly document, update, share, trade, sell, and showcase their Pokémon Card collections. 
       No other app offers this all-in-one experience! It has even been used by a few enthusiasts on Reddit, much to their approval!`,
     stack: ["Vite", "React", "Rails", "Javascript", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
@@ -33,7 +33,7 @@ const projects = [
   {
     name: "TweedleDoo",
     description:
-      `A full-stack web app for creating and managing multiple to-do lists with full CRUD functionality. Organize tasks into bite-sized 
+      `A simple full-stack web app for creating and managing multiple to-do lists with full CRUD functionality. Organize tasks into bite-sized 
       steps within a clean, user-friendly interface. This app highlights my expertise as a full-stack developer using established tools 
       and practices!`,
     stack: ["React", "Rails", "Javascript", "Ruby"],
@@ -55,7 +55,7 @@ const projects = [
     description:
       `A straightforward, no-frills tool for exploring Hacker News articles and tracking recent searches. Originally built 
       for a coding challenge in under a half hour, this app highlights my ability to navigate APIs and to deliver quality 
-      in a timely fashion.`,
+      work in a timely fashion.`,
     stack: ["Vite", "React", "Javascript", "API"],
     sourceCode: "https://github.com/ShujaatAzim/HackerNewsSearch",
     live: "https://hnsearch.shujaatazim.com",
@@ -68,6 +68,21 @@ const projects = [
     stack: ["Rails", "Ruby"],
     sourceCode: "https://github.com/ShujaatAzim/RubyTidbits",
     live: "https://tidbits.shujaatazim.com",
+  }
+]
+
+const enterprise = [
+  {
+    name: "The Phoenix site",
+    link: ""
+  },
+  {
+    name: "NewForm Portal",
+    link: ""
+  },
+  {
+    name: "NewForm site",
+    link: ""
   }
 ]
 
@@ -109,6 +124,7 @@ const skills = [
     skills: [
       "Node",
       "Git",
+      "Figma",
       "SQLite",
       "PostgreSQL",
       "GraphQL",
@@ -121,6 +137,7 @@ const skills = [
     name: "Platforms",
     skills: [
       "AWS",
+      "Hasura",
       "Firebase",
       "Heroku",
       "Dokku"
@@ -130,7 +147,8 @@ const skills = [
     name: "Testing",
     skills: [
       "Playwright",
-      "Jest"
+      "Jest",
+      "RSpec"
     ]
   }
 ];
@@ -140,4 +158,4 @@ const contact = {
   email: "shujaatazim@gmail.com",
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, enterprise, skills, contact }
