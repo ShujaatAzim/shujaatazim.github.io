@@ -1,7 +1,7 @@
-import uniqid from 'uniqid';
-import { projects } from '../../portfolio';
-import ProjectCard from '../ProjectCard/ProjectCard';
-import './Projects.css';
+import uniqid from 'uniqid'
+import { projects } from '../../portfolio'
+import ProjectCard from '../ProjectCard/ProjectCard'
+import './Projects.css'
 
 const Projects = () => {
   if (!projects.length) return null
@@ -19,4 +19,4 @@ const Projects = () => {
   );
 }
 
-export default Projects;
+export default Projects

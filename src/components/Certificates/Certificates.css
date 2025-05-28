@@ -1,0 +1,31 @@
+.certificates-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+  gap: 2rem;
+}
+
+.certificate {
+  cursor: pointer;
+  aspect-ratio: 4 / 3;
+  width: 200px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.certificate img {
+  width: auto;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.certificate img:hover {
+  transform: scale(1.02);
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

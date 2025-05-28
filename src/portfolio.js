@@ -1,161 +1,174 @@
 const header = {
-  homepage: "https://shujaatazim.com/",
-  title: "SA.",
+  homepage: 'https://shujaatazim.com/',
+  title: 'SA.',
 }
 
 const about = {
-  name: "Shujaat Azim",
-  role: "Full Stack Developer & Software Engineer",
+  name: 'Shujaat Azim',
+  role: 'Full Stack Developer & Software Engineer',
   description: 
-    `I've been a full-stack developer since 2019, but my journey has been anything but straight. 
-    I've worked across different fields, including medicine, finance, and tech — each one taught me 
-    something different about learning, problem-solving, and adapting. I'm genuinely grateful for those 
-    experiences because they shape how I approach challenges every day as a developer. I bring curiosity, resilience, 
+    `I've been a full-stack developer since 2019, though my journey has been anything but straight. 
+    My path had me working across many different fields, including medicine, finance, and tech — each one teaching me 
+    something different about learning, problem-solving, and adapting. I am genuinely grateful for those 
+    experiences, as they have shaped how I now approach challenges as a developer. I bring curiosity, resilience, 
     and a constant drive to keep growing, both in my career and personally.`,
   social: {
-    linkedin: "https://www.linkedin.com/in/shujaatazim/",
-    github: "https://github.com/ShujaatAzim",
-    blog: "https://dev.to/shujaatazim",
-    resume: "ShujaatAzimCV.pdf"
+    linkedin: 'https://www.linkedin.com/in/shujaatazim/',
+    github: 'https://github.com/ShujaatAzim',
+    blog: 'https://dev.to/shujaatazim',
+    resume: 'ShujaatAzimCV.pdf'
   },
 }
 
 const projects = [
   {
-    name: "PokéBook",
+    name: 'PokéBook',
     description:
       `A full-stack web app that enables users to effortlessly document, update, share, trade, sell, and showcase their Pokémon Card collections. 
       No other app offers this all-in-one experience! It has even been used by a few enthusiasts on Reddit, much to their approval!`,
-    stack: ["Vite", "React", "Rails", "Javascript", "Ruby"],
-    sourceCode: "https://github.com/ShujaatAzim/PokeBook-Frontend",
-    live: "https://pokebook.shujaatazim.com",
+    stack: ['Vite', 'React', 'Rails', 'Javascript', 'Ruby'],
+    sourceCode: 'https://github.com/ShujaatAzim/PokeBook-Frontend',
+    live: 'https://pokebook.shujaatazim.com',
   },
   {
-    name: "TweedleDoo",
+    name: 'TweedleDoo',
     description:
       `A simple full-stack web app for creating and managing multiple to-do lists with full CRUD functionality. Organize tasks into bite-sized 
       steps within a clean, user-friendly interface. This app highlights my expertise as a full-stack developer using established tools 
       and practices!`,
-    stack: ["React", "Rails", "Javascript", "Ruby"],
-    sourceCode: "https://github.com/ShujaatAzim/TweedleDoo-Frontend",
-    live: "https://tweedledoo.shujaatazim.com",
+    stack: ['React', 'Rails', 'Javascript', 'Ruby'],
+    sourceCode: 'https://github.com/ShujaatAzim/TweedleDoo-Frontend',
+    live: 'https://tweedledoo.shujaatazim.com',
   },
   {
-    name: "City Skyline",
+    name: 'City Skyline',
     description:
       `An interactive CSS-based city skyline simulation with toggleable lighting and weather effects. Built entirely 
       with CSS and vanilla JavaScript, and served via a minimalist Vite setup, it highlights my skills in CSS 
       animations and responsive design — often overlooked abilities in the age of AI.`,
-    stack: ["CSS", "HTML", "Javascript", "Vite"],
-    sourceCode: "https://github.com/ShujaatAzim/CitySkyline",
-    live: "https://cityskyline.shujaatazim.com",
+    stack: ['CSS', 'HTML', 'Javascript', 'Vite'],
+    sourceCode: 'https://github.com/ShujaatAzim/CitySkyline',
+    live: 'https://cityskyline.shujaatazim.com',
   },
   {
-    name: "Hacker News Search",
+    name: 'Hacker News Search',
     description:
       `A straightforward, no-frills tool for exploring Hacker News articles and tracking recent searches. Originally built 
       for a coding challenge in under a half hour, this app highlights my ability to navigate APIs and to deliver quality 
       work in a timely fashion.`,
-    stack: ["Vite", "React", "Javascript", "API"],
-    sourceCode: "https://github.com/ShujaatAzim/HackerNewsSearch",
-    live: "https://hnsearch.shujaatazim.com",
+    stack: ['Vite', 'React', 'Javascript', 'API'],
+    sourceCode: 'https://github.com/ShujaatAzim/HackerNewsSearch',
+    live: 'https://hnsearch.shujaatazim.com',
   },
   {
-    name: "Ruby Tidbits",
+    name: 'Ruby Tidbits',
     description:
       `A collection of mini logic demonstrations built entirely the Ruby on Rails framework using the Ruby language. This 
       lightweight app showcases my expertise with Ruby and the Rails framework in a fun, interactive way!`,
-    stack: ["Rails", "Ruby"],
-    sourceCode: "https://github.com/ShujaatAzim/RubyTidbits",
-    live: "https://tidbits.shujaatazim.com",
+    stack: ['Rails', 'Ruby'],
+    sourceCode: 'https://github.com/ShujaatAzim/RubyTidbits',
+    live: 'https://tidbits.shujaatazim.com',
   }
 ]
 
 const enterprise = [
   {
-    name: "The Phoenix site",
-    link: ""
+    name: 'The Phoenix site',
+    link: ''
   },
   {
-    name: "NewForm Portal",
-    link: ""
+    name: 'NewForm Portal',
+    link: ''
   },
   {
-    name: "NewForm site",
-    link: ""
+    name: 'NewForm site',
+    link: ''
   }
 ]
 
 const skills = [
   {
-    name: "Languages",
+    name: 'Languages',
     skills: [
-      "Javascript",
-      "Typescript",
-      "Ruby",
-      "Python",
-      "C",
-      "HTML",
-      "CSS"
+      'Javascript',
+      'Typescript',
+      'Ruby',
+      'Python',
+      'C',
+      'HTML',
+      'CSS'
     ]
   },
   {
-    name: "Frameworks",
+    name: 'Frameworks',
     skills: [
-      "Next",
-      "React",
-      "Vite",
-      "Nest",
-      "Rails",
-      "Vue"
+      'Next',
+      'React',
+      'Vite',
+      'Nest',
+      'Rails',
+      'Vue'
     ],
   },
   {
-    name: "Libraries",
+    name: 'Libraries',
     skills: [
-      "D3",
-      "Tailwind",
-      "Jotai",
-      "Recoil"
+      'D3',
+      'Tailwind',
+      'Jotai',
+      'Recoil'
     ],
   },
   {
-    name: "Tools",
+    name: 'Tools',
     skills: [
-      "Node",
-      "Git",
-      "Figma",
-      "SQLite",
-      "PostgreSQL",
-      "GraphQL",
-      "REST API",
-      "Postman",
-      "Insomnia"
+      'Node',
+      'Git',
+      'Figma',
+      'SQLite',
+      'PostgreSQL',
+      'GraphQL',
+      'REST API',
+      'Postman',
+      'Insomnia'
     ],
   },
   {
-    name: "Platforms",
+    name: 'Platforms',
     skills: [
-      "AWS",
-      "Hasura",
-      "Firebase",
-      "Heroku",
-      "Dokku"
+      'AWS',
+      'Hasura',
+      'Firebase',
+      'Heroku',
+      'Dokku'
     ],
   },
   {
-    name: "Testing",
+    name: 'Testing',
     skills: [
-      "Playwright",
-      "Jest",
-      "RSpec"
+      'Playwright',
+      'Jest',
+      'RSpec'
     ]
   }
 ];
 
+const certificates = [
+  {
+    name: 'Flatiron',
+    image: '/FlatironCertImg.png',
+    pdf: '/FlatironCertificate.pdf'
+  },
+  {
+    name: 'freeCodeCamp Responsive',
+    image: '/fCCResponsiveCertImg.png',
+    pdf: '/fCCResponsiveCertificate.pdf'
+  }
+]
+
 
 const contact = {
-  email: "shujaatazim@gmail.com",
+  email: 'shujaatazim@gmail.com',
 }
 
-export { header, about, projects, enterprise, skills, contact }
+export { header, about, projects, enterprise, skills, certificates, contact }
